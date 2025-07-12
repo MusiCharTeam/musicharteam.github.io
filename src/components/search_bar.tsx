@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { DialogNoClose, DialogNoCloseContent } from "@/components/ui/dialog-no-close";
 import { Input } from "@/components/ui/input";
 import { MagnifyingGlassIcon, ArrowRightIcon, ArrowTurnDownLeftIcon } from "@heroicons/react/24/outline";
