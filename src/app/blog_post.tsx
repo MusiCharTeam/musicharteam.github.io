@@ -320,7 +320,7 @@ export default function BlogPost() {
                   <a href="#" className="font-semibold">
                     {post.author}
                   </a>
-                  <span className="ml-1 text-muted-foreground">在 {post.published} 發佈</span>
+                  <span className="ml-1 text-muted-foreground text-xs md:text-sm">在 {post.published} 發佈</span>
                 </span>
               </div>
               <img

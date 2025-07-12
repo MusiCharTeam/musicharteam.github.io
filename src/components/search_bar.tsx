@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { DialogNoClose, DialogNoCloseContent } from "@/components/ui/dialog-no-close";
 import { Input } from "@/components/ui/input";
 import { MagnifyingGlassIcon, ArrowRightIcon, ArrowTurnDownLeftIcon } from "@heroicons/react/24/outline";
@@ -21,8 +21,11 @@ const DUMMY_RESULTS = [
 
 export function SearchBar({ isOpen, onClose }: SearchBarProps) {
   const [activeIdx, setActiveIdx] = useState(0);
+  const [searchInput, setSearchInput] = useState("");
   const items = DUMMY_RESULTS[0].items;
   const navigate = useNavigate();
+  const inputRef = useRef<HTMLInputElement>(null);
+  
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
       if ((event.ctrlKey || event.metaKey) && event.key === 'k') {
@@ -66,8 +69,11 @@ export function SearchBar({ isOpen, onClose }: SearchBarProps) {
           <div className="relative">
             <MagnifyingGlassIcon className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-neutral-400" />
             <Input
+              ref={inputRef}
               type="text"
               placeholder="搜尋"
+              value={searchInput}
+              onChange={(e) => setSearchInput(e.target.value)}
               className="pl-10 pr-4 py-3 text-base bg-neutral-800 text-white placeholder:text-neutral-500 rounded-lg border border-neutral-700/50 focus-visible:border-neutral-700/50 focus-visible:ring-0 focus-visible:outline-none"
               autoFocus
               onKeyDown={e => {

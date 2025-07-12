@@ -49,7 +49,7 @@ export default function Changelog() {
         <div className="w-full max-w-2xl mx-auto px-4 py-8">
           <ol className="relative border-l border-border">
             {[1, 2, 3].map((idx) => (
-              <li key={idx} className="mb-10 ml-6">
+              <li key={idx} className="mb-10 md:mb-10 mb-16 ml-6">
                 <span className="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full">
                   <Skeleton className="h-6 w-6 rounded-full" />
                 </span>

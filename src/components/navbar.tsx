@@ -263,7 +263,10 @@ export function Navbar() {
                     </Tooltip>
                   ) : (
                     <button className="p-2 rounded-full hover:bg-accent focus:outline-none focus:ring-2 focus:ring-ring">
-                      <MagnifyingGlassIcon className="h-6 w-6" onClick={() => setSearchOpen(true)} />
+                      <MagnifyingGlassIcon className="h-6 w-6" onClick={() => {
+                        setSearchOpen(true);
+                        setSheetOpen(false);
+                      }} />
                     </button>
                   )}
                   {/* <button 
