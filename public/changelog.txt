@@ -1,0 +1,41 @@
+v0.0.2.280625_Pre-Alpha
+新增社群ui登入界面，忘記密碼界面，注冊賬戶界面
+
+v0.0.1.280625_Pre-Alpha_e7
+新增時間軸綫條與節拍系統
+關卡名稱設定UI
+
+v0.0.1.270625_Pre-Alpha_e6
+完善了setting_ui
+修改了editor_ui，新增了增加文字按鈕
+重新佈局editor ui時間軸擺放位置
+
+v0.0.1.260625_Pre-Alpha_e5
+完善了setting_ui
+修改了splash_screen
+
+v0.0.1.260625_Pre-Alpha_e4
+更改了splash screen
+更改了游戲字體，由noto san hk換成了gensenrounded tc
+
+v0.0.1.260625_Pre-Alpha_e3
+新增了setting_ui中的按鈕動畫效果
+新增了setting_ui返回主頁的轉場效果
+修改了community_ui
+新增了setting_ui中的scroll bar node
+
+v0.0.1.250625_Pre-Alpha_e2
+新增了setting_ui
+修改了main_ui
+移除了editor鏡頭移動功能
+修改了editor_ui
+創建了社群ui
+
+v0.0.1.240625_Pre-Alpha_e1
+優化了editor ui
+
+v0.0.0.240625_Pre-Alpha_e10
+增加了鏡頭移動功能
+增加了移除最新節點功能
+增加了調整節點位置功能
+增加了曲綫功能 
