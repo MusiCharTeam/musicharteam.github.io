@@ -8,7 +8,6 @@ export function Footer({ sticky }: { sticky?: boolean }) {
                 <div className="flex justify-center mb-3">
                     <Typography variant={"muted"} className="font-medium text-[9px] md:text-[11px] rounded-lg px-3 py-1 backdrop-blur-md border border-border">
                         MusiChar 網站使用 
-                        <a href="https://react.dev/">Cursor</a>, 
                         <a href="https://react.dev/">React</a>, 
                         <a href="https://ui.shadcn.com/">Shadcn UI</a>, 
                         <a href="https://tailwindcss.com/">TailwindCSS</a>, 
