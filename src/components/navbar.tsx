@@ -331,7 +331,7 @@ export function Navbar() {
         <div className="flex-1 flex justify-center ml-6">
           <Link to="/">
             <img 
-              src={"/src/assets/logo_dark.png"} 
+              src={"/logo_dark.png"} 
               alt="Logo" 
               className="h-10 cursor-pointer" 
             />
@@ -424,7 +424,7 @@ export function Navbar() {
         <div className="flex-1 flex items-center">
           <Link to="/">
             <img 
-              src={"/src/assets/logo_dark.png"} 
+              src={"/logo_dark.png"} 
               alt="Logo" 
               className="h-10 mr-6 cursor-pointer" 
             />

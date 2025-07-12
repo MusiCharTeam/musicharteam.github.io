@@ -27,7 +27,7 @@ const Content2 = () => {
             <div className="flex-1 flex flex-col items-center lg:items-end justify-center my-5 lg:my-0 lg:pl-10 h-full">
               <div className="w-75 lg:w-110 flex flex-col items-center justify-center">
                 <AspectRatio ratio={16/9}>
-                  <img src="./src/assets/people_chart.png" alt="Image" className="rounded-md object-cover" />
+                  <img src="/assets/people_chart.png" alt="Image" className="rounded-md object-cover" />
                 </AspectRatio>
                 <p className="text-muted-foreground text-base md:max-w-2xl">
               </p>

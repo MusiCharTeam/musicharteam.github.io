@@ -12,7 +12,7 @@ export function LoginForm({
       <form>
         <div className="flex flex-col gap-6">
           <div className="flex flex-col items-center gap-2">
-            <img src="/src/assets/logo_dark.png" alt="MusiChar Logo" className="h-12 mb-2" />
+            <img src="/logo_dark.png" alt="MusiChar Logo" className="h-12 mb-2" />
             <h1 className="text-2xl font-black">登入 MusiChar</h1>
             <div className="text-center text-sm">
               沒有MusiChar賬戶嗎？{" "}
