@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/musicharteam/logo_dark.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MusiChar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <script>
+      function updateFavicon() {
+        const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const link = document.querySelector("link[rel*='icon']");
+        if (link) {
+          const newHref = isDark ? '/logo_dark.png' : '/logo_light.png';
+          link.href = newHref;
+          console.log('Favicon updated:', newHref, 'Dark mode:', isDark);
+        }
+      }
+      
+      // 初始設置
+      updateFavicon();
+      
+      // 監聽主題變化
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateFavicon);
+    </script>
+    <script type="module" crossorigin src="/musicharteam/assets/index-DPFx60YP.js"></script>
+    <link rel="stylesheet" crossorigin href="/musicharteam/assets/index-BhYwJdjh.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+[time]
+11:21/5/7/2025
+[title]
+Discord社群正式開放
+[img]
+Discord-Symbol.png
+[summary]
+加入我們的 Discord 社群，與其他玩家分享關卡圖譜，討論遊戲技巧，並獲得最新的開發更新。
+[content]
+testing 123
+
+[time]
+11:25/5/7/2025
+[title]
+新增 50+ 精選關卡圖譜
+[img]
+8569555cb85eb1debe98ea7e76974fd9.webp
+[summary]
+我們新增了50多個精心設計的關卡圖譜，涵蓋從基礎到進階的各種難度，幫助孩子們逐步提升書寫能力。
+[content]
+testing 123
+
+[time]
+11:31/5/7/2025
+[title]
+MusiChar v0.0.2 正式發布
+[img]
+螢幕擷取畫面 2025-07-02 215637.png
+[summary]
+全新版本帶來更多關卡圖譜、改進的節奏檢測算法，以及全新的用戶界面設計。為讀寫障礙兒童提供更好的學習體驗。
+[content]
+testing 123
