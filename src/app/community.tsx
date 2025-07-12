@@ -40,9 +40,11 @@ export default function Community() {
                     </Typography>
                     <div className="flex items-center justify-between">
                       {/* <Badge variant="secondary">0 成員</Badge> */}
-                      <Button variant="ghost" size="sm" className="gap-2">
-                        加入
-                        <ArrowRight className="h-4 w-4" />
+                      <Button variant="ghost" size="sm" className="gap-2" asChild>
+                        <a href="https://discord.gg/9e69BKPCzC" target="_blank" rel="noopener noreferrer">
+                          加入
+                          <ArrowRight className="h-4 w-4" />
+                        </a>
                       </Button>
                     </div>
                   </CardContent>
@@ -66,9 +68,11 @@ export default function Community() {
                     </Typography>
                     <div className="flex items-center justify-between">
                       {/* <Badge variant="secondary">0 Stars</Badge> */}
-                      <Button variant="ghost" size="sm" className="gap-2">
-                        查看
-                        <ArrowRight className="h-4 w-4" />
+                      <Button variant="ghost" size="sm" className="gap-2" asChild>
+                        <a href="https://github.com/WuJoe826/Musichar" target="_blank" rel="noopener noreferrer">
+                          查看
+                          <ArrowRight className="h-4 w-4" />
+                        </a>
                       </Button>
                     </div>
                   </CardContent>

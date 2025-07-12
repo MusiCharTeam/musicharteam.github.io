@@ -134,7 +134,7 @@ export default function AllNews() {
           label: "社群",
           author: "MusiChar 團隊",
           published: "2024年1月5日",
-          url: "https://github.com/WuJoe826/Musichar",
+          url: "https://discord.gg/9e69BKPCzC",
           image: "/latest_new_img/news3.jpg",
         },
         {

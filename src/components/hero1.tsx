@@ -52,7 +52,7 @@ const Hero1 = ({
           <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
             {badge && (
               <Badge variant="secondary" className="font-bold">
-                <a href="" className="font-bold">{badge}</a>
+                <a href="https://discord.gg/9e69BKPCzC" target="_blank" rel="noopener noreferrer" className="font-bold">{badge}</a>
                 <ArrowUpRight className="ml-2 size-4" />
               </Badge>
             )}

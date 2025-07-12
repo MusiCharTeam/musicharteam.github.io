@@ -29,7 +29,7 @@ export default function DownloadGame() {
           <Typography variant="muted" className="text-xs text-black text-center leading-tight">Windows 8.1或更新版本（x64）版</Typography>
         </Button>
       </a>
-        <a href="https://github.com/WuJoe826/Musichar/releases" target="_blank" className="text-sm lg:text-sm text-muted-foreground mb-1 mt-3 text-center max-w-xl hover:underline transition-all">下載歷史版本</a>
+        <a href="https://github.com/WuJoe826/Musichar/releases" target="_blank" rel="noopener noreferrer" className="text-sm lg:text-sm text-muted-foreground mb-1 mt-3 text-center max-w-xl hover:underline transition-all">下載歷史版本</a>
       {/* Demo Section with Typography */}
       <section className="w-full max-w-7xl mt-20 mb-10 px-2 sm:px-4 md:px-8 flex flex-col">
         <div className="max-w-5xl mx-auto w-full">

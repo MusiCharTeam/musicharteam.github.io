@@ -15,7 +15,7 @@ const DUMMY_RESULTS = [
     { label: "最新消息", url: "/latest_news" },
     { label: "更新日志", url: "/changelog" },
     { label: "下載游戲", url: "/download_game" },
-    { label: "前往Discord社群", url: "https://github.com/WuJoe826/Musichar" },
+    { label: "前往Discord社群", url: "https://discord.gg/9e69BKPCzC" },
   ]}
 ];
 

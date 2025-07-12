@@ -21,7 +21,7 @@ const mockRankData: RankItem[] = [
   {
     id: 1,
     rank: 1,
-    username: "mrdkkk",
+    username: "ShadowFox23",
     avatar: "/avatar1.jpg",
     accuracy: 98.5,
     playTime: "156小時",
@@ -30,7 +30,7 @@ const mockRankData: RankItem[] = [
   {
     id: 2,
     rank: 2,
-    username: "jerk123",
+    username: "NeonBlaze41",
     avatar: "/avatar2.jpg",
     accuracy: 92.5,
     playTime: "88小時",
@@ -39,7 +39,7 @@ const mockRankData: RankItem[] = [
   {
     id: 3,
     rank: 3,
-    username: "asd2333",
+    username: "QuantumPanda7",
     avatar: "/avatar3.jpg",
     accuracy: 85.8,
     playTime: "128小時",
@@ -48,7 +48,7 @@ const mockRankData: RankItem[] = [
   {
     id: 4,
     rank: 4,
-    username: "adne596",
+    username: "StellarJumper",
     avatar: "/avatar4.jpg",
     accuracy: 96.8,
     playTime: "62小時",
@@ -57,7 +57,7 @@ const mockRankData: RankItem[] = [
   {
     id: 5,
     rank: 5,
-    username: "xQcLUL",
+    username: "CyberPhoenix9",
     avatar: "/avatar5.jpg",
     accuracy: 89.2,
     playTime: "115小時",
@@ -66,7 +66,7 @@ const mockRankData: RankItem[] = [
   {
     id: 6,
     rank: 6,
-    username: "pepega",
+    username: "MysticRaven12",
     avatar: "/avatar6.jpg",
     accuracy: 87.5,
     playTime: "68小時",
@@ -75,7 +75,7 @@ const mockRankData: RankItem[] = [
   {
     id: 7,
     rank: 7,
-    username: "monkaS",
+    username: "NovaWolf",
     avatar: "/avatar7.jpg",
     accuracy: 95.5,
     playTime: "75小時",
@@ -84,7 +84,7 @@ const mockRankData: RankItem[] = [
   {
     id: 8,
     rank: 8,
-    username: "kappa123",
+    username: "PixelDrifter5",
     avatar: "/avatar8.jpg",
     accuracy: 83.2,
     playTime: "55小時",
@@ -93,7 +93,7 @@ const mockRankData: RankItem[] = [
   {
     id: 9,
     rank: 9,
-    username: "omegalul",
+    username: "SolarFlareX",
     avatar: "/avatar9.jpg",
     accuracy: 91.8,
     playTime: "82小時",
@@ -102,7 +102,7 @@ const mockRankData: RankItem[] = [
   {
     id: 10,
     rank: 10,
-    username: "pogchamp",
+    username: "CrimsonTide99",
     avatar: "/avatar10.jpg",
     accuracy: 94.2,
     playTime: "102小時",
@@ -111,7 +111,7 @@ const mockRankData: RankItem[] = [
   {
     id: 11,
     rank: 11,
-    username: "forsenCD",
+    username: "LunarGhost3",
     avatar: "/avatar11.jpg",
     accuracy: 88.8,
     playTime: "72小時",
@@ -120,7 +120,7 @@ const mockRankData: RankItem[] = [
   {
     id: 12,
     rank: 12,
-    username: "gachiBASS",
+    username: "ThunderBoltZ",
     avatar: "/avatar12.jpg",
     accuracy: 86.5,
     playTime: "58小時",
@@ -129,7 +129,7 @@ const mockRankData: RankItem[] = [
   {
     id: 13,
     rank: 13,
-    username: "trihard7",
+    username: "FrostGiant21",
     avatar: "/avatar13.jpg",
     accuracy: 90.2,
     playTime: "95小時",
@@ -138,7 +138,7 @@ const mockRankData: RankItem[] = [
   {
     id: 14,
     rank: 14,
-    username: "nymnA",
+    username: "EmeraldSpectre",
     avatar: "/avatar14.jpg",
     accuracy: 84.8,
     playTime: "65小時",
@@ -147,7 +147,7 @@ const mockRankData: RankItem[] = [
   {
     id: 15,
     rank: 15,
-    username: "sodapoppin",
+    username: "CosmicDuke8",
     avatar: "/avatar15.jpg",
     accuracy: 93.5,
     playTime: "108小時",
@@ -156,7 +156,7 @@ const mockRankData: RankItem[] = [
   {
     id: 16,
     rank: 16,
-    username: "shroud",
+    username: "IronVortex",
     avatar: "/avatar16.jpg",
     accuracy: 82.1,
     playTime: "52小時",
@@ -165,7 +165,7 @@ const mockRankData: RankItem[] = [
   {
     id: 17,
     rank: 17,
-    username: "ninja",
+    username: "TitaniumHawk",
     avatar: "/avatar17.jpg",
     accuracy: 89.8,
     playTime: "78小時",
@@ -174,7 +174,7 @@ const mockRankData: RankItem[] = [
   {
     id: 18,
     rank: 18,
-    username: "pokimane",
+    username: "ObsidianWing",
     avatar: "/avatar18.jpg",
     accuracy: 81.5,
     playTime: "48小時",
@@ -183,7 +183,7 @@ const mockRankData: RankItem[] = [
   {
     id: 19,
     rank: 19,
-    username: "timthetatman",
+    username: "BlazeRunner7",
     avatar: "/avatar19.jpg",
     accuracy: 80.2,
     playTime: "45小時",
@@ -192,7 +192,7 @@ const mockRankData: RankItem[] = [
   {
     id: 20,
     rank: 20,
-    username: "drlupo",
+    username: "MidnightByte",
     avatar: "/avatar20.jpg",
     accuracy: 78.8,
     playTime: "42小時",

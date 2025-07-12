@@ -11,6 +11,7 @@ import FaqPage from "@/app/faq"
 import SkeletonPreview from "@/app/skeleton_preview"
 import Community from "@/app/community"
 import Rank from "@/app/rank"
+import NotFound from "@/app/404"
 import { Routes, Route, useLocation } from "react-router-dom"
 import { CSSTransition, SwitchTransition } from "react-transition-group"
 import { useRef } from "react"
@@ -53,6 +54,7 @@ function App() {
                 <Route path="/skeleton_preview" element={<SkeletonPreview />} />
                 <Route path="/community" element={<Community />} />
                 <Route path="/rank" element={<Rank />} />
+                <Route path="*" element={<NotFound />} />
               </Routes>
             </div>
           </CSSTransition>
